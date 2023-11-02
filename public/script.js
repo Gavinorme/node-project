@@ -1,6 +1,6 @@
 const showCharacters = async () =>
 {
-    let response = await fetch("https://node-project-edxo.onrender.com/api/characters");
+    let response = await fetch("https://node-project-edxo.onrender.com/api/characters/");
     let characterJSON = await response.json();
     let characterDiv = document.getElementById("characters-list");
 
