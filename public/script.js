@@ -1,6 +1,6 @@
 const showCharacters = async () =>
 {
-    let response = await fetch("http://localhost:3000/api/characters");
+    let response = await fetch("https://node-project-edxo.onrender.com/api/characters");
     let characterJSON = await response.json();
     let characterDiv = document.getElementById("characters-list");
 
@@ -30,7 +30,7 @@ const showCharacters = async () =>
 
         let img = document.createElement("img");
         section.append(img);
-        img.src = "https://node-project-edxo.onrender.com"+ character.img;
+        img.src = "https://node-project-edxo.onrender.com/"+ character.img;
     });
 };
 
