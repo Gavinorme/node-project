@@ -53,6 +53,15 @@ app.get("/api/characters", (req, res) => {
         img: "images/summer.png",
     };
 
+    characters[5] = {
+        name: "Mr. Poopy Butthole",
+        actor: "Spencer Grammer",
+        role: "Side character",
+        relation: "Rick's friend",
+        attributes: [" sarcastic", " energetic", " bold", " wity"],
+        img: "images/mr poopy.jpeg",
+    };
+
     res.json(characters);
 });
 

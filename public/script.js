@@ -7,7 +7,7 @@ const showCharacters = async () =>
     characterJSON.forEach((character) => {
         let section = document.createElement("section");
         characterDiv.append(section);
-        section.classList.add("box");
+        
 
         let h3 = document.createElement("h3");
         section.append(h3);

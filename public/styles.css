@@ -1,6 +1,7 @@
 /* Structure */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/showme.jpeg);
 }
 
 section
@@ -10,24 +11,25 @@ section
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
+    width: 25%;
+    background-color: aliceblue;
+    max-width: 90%;
+    margin: 25px;
 }
-.box
-{
-    display: block;
-    border: black 3px solid;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-}
+
 img
 {
- width: 10%;
+ width: 50%;
 }
 
 /* Typeography */
 h1{
     color: lightskyblue;
     text-align: center;
+}
+h2
+{
+    font-size: 2.0em;
 }
 h3{
     color: limegreen;
@@ -38,10 +40,12 @@ h3{
     {
         display: flex;
         flex-wrap: wrap;
+        
     }
     img
     {
-        width: 10%;
+        width: 25%;
         display: block;
+        padding: 5px;
     }
 }
