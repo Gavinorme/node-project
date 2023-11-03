@@ -3,6 +3,26 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section
+{
+    display: block;
+    border: black 3px solid;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+.box
+{
+    display: block;
+    border: black 3px solid;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+img
+{
+ width: 10%;
+}
 
 /* Typeography */
 h1{
@@ -10,5 +30,18 @@ h1{
     text-align: center;
 }
 h3{
-    color: red;
+    color: limegreen;
+}
+
+@media only screen and (min-width: 600px) {
+    #characters-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    img
+    {
+        width: 10%;
+        display: block;
+    }
 }
