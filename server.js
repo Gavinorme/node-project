@@ -59,7 +59,7 @@ app.get("/api/characters", (req, res) => {
         role: "Side character",
         relation: "Rick's friend",
         attributes: [" sarcastic", " energetic", " bold", " wity"],
-        img: "images/mr poopy.jpeg",
+        img: "images/poopy.png",
     };
 
     res.json(characters);
